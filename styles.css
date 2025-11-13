@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Londrina+Solid:wght@100;300;400;900&family=PT+Sans+Narrow:wght@400;700&display=swap");
+
+:root {
+  --dark-color: #000000;
+  --darkblue-color: #14213d;
+  --vibrant-yellow: #fca311;
+  --grey-color: #e5e5e5;
+  --white-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--vibrant-yellow);
+}
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  background-color: var(--darkblue-color);
+  color: var(--vibrant-yellow);
+}
+
+.title__font {
+  font-family: "Londrina Solid", sans-serif;
+}
+
+.alt__font {
+  font-family: "Londrina Shadow", sans-serif;
+}
