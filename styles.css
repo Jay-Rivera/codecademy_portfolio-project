@@ -382,7 +382,15 @@ footer {
   }
 }
 
-/* Phones
+/* Phones  */
 @media (max-width: 480px) {
-  ...;
-} */
+  main {
+    h1 {
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+}
