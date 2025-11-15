@@ -393,4 +393,13 @@ footer {
       font-size: 20px;
     }
   }
+
+  .project__title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dad__joke--section {
+    height: 300px;
+  }
 }
